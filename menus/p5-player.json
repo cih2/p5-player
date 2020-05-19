@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle p5-player",
+        "command": "p5-player:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "p5-player",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "p5-player:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
